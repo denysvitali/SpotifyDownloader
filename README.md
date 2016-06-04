@@ -1,5 +1,5 @@
-# SpotifyDownloder
-A spotify Downloader
+# SpotifyDownloader
+A Spotify song and playlists downloader
 
 # WARNING
 The code actually is ultra dirty (provided as is) - and it's actually not a Node package
