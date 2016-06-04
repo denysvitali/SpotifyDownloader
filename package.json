@@ -1,0 +1,29 @@
+{
+  "name": "spotifydownloader",
+  "version": "1.0.0",
+  "description": "A Spotify song and playlists downloader",
+  "main": "main.js",
+  "dependencies": {
+    "asyncblock": "^2.2.8",
+    "colorize": "^0.1.0",
+    "node-fs": "^0.1.7",
+    "path": "^0.12.7",
+    "request": "^2.72.0",
+    "spotify-web": "git+https://github.com/Farami/node-spotify-web.git",
+    "string_decoder": "^0.10.31"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denysvitali/SpotifyDownloder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denysvitali/SpotifyDownloder/issues"
+  },
+  "homepage": "https://github.com/denysvitali/SpotifyDownloder#readme"
+}

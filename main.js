@@ -29,7 +29,7 @@ if (!fs.existsSync(__dirname + "/songs/")) {
 }
 
 
-for (i in process.argv) {
+for (var i in process.argv) {
     if (i === 0 || i === 1) {
         continue;
     }
