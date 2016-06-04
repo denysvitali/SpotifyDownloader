@@ -282,7 +282,14 @@ var dospotifylogin = function(spotify, callback) {
     if (!callback || typeof(callback) != "function") {
         callback = function() {};
     }
-    Spotify.login("{YOUR USERNAME}", "{YOUR PASSWORD}", callback);
+    var loginDetails = fs.readFileSync(__dirname + '/login.json');
+    try{
+       var login = JSON.parse(loginDetails);
+       Spotify.login(login.username, login.password, callback);
+    }
+    catch(e){
+
+    }
 };
 
 dospotifylogin(null, afterlogin);
